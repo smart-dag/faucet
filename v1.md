@@ -41,36 +41,22 @@ docker exec -it sdag cat data/sdg/settings.json
 node random_address.js
 ```
 
+![](v1/address.png)
+
 记住这个地址，然后输入：
 
 ```
 node get.js BEBBGRHFPR6CQ7UXDLWHBZ5SOI32UXHM 1
 ```
 
+![](v1/get.png)
+
 这样就从基金会给地址 BEBBGRHFPR6CQ7UXDLWHBZ5SOI32UXHM 发送了1个单位的数字资产。
 
 在explorer中，可以找到这条转账记录。
 
-注意地址，1个对应10^6.
+![](v1/explorer.png)
+
+> 注意：1个单位的数字资产对应10^6。
 
 自此，命令行版本的水龙头就已经结束了。
-
-
-
-
-
-v2 版本，图形界面。
-
-
-```sql
-CREATE TABLE `all` (
-	`id`	INTEGER PRIMARY KEY AUTOINCREMENT,
-	`reg-time`	INTEGER,
-	`pay-time`	INTEGER,
-	`finish-time`	INTEGER,
-	`amount`	INTEGER,
-	`from`	TEXT,
-	`to`	TEXT
-);
-```
-
