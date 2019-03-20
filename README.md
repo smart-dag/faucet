@@ -60,3 +60,5 @@ node get.js BEBBGRHFPR6CQ7UXDLWHBZ5SOI32UXHM 1
 > 注意：1个单位的数字资产对应10^6。
 
 自此，命令行版本的水龙头就已经结束了。
+
+也可以使用桌面版的wallet，参考这里： https://github.com/smart-dag/docs/blob/master/use-desktop-wallet/README.md 
