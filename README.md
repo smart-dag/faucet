@@ -1,6 +1,4 @@
-# faucet 水龙头
-
-> faucet for SDAG testnet
+# 本地环境的命令行的水龙头，配合docker使用。
 
 首先克隆并安装安装水龙头
 
